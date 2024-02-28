@@ -1,0 +1,44 @@
+body{
+    background-color:bisque;
+}
+.container{
+    display: flex;
+    border: 1px solid black;
+   position: relative;
+  justify-content: space-evenly;
+  border-radius: 10px;
+  height: 500px;
+  width: 800px;
+  
+}
+
+img{
+    object-fit:cover;
+    height: 100%;
+    width: 100%;
+     object-position:  ;
+    
+}
+#box2{
+    background-color: white;
+    padding: 1rem;
+}
+.box{
+    position: relative;
+    align-self: stretch;
+  
+}
+
+button{
+    background-color: rgba(23, 131, 23, 0.679);
+    border-radius: 5px;
+     width: 300px;
+     height: 30px;
+     margin-bottom: 20px;
+}
+ 
+h6{
+    font-family :cursive;
+    font-weight: 100;
+    letter-spacing: 5px;
+}

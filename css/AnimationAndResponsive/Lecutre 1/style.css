@@ -1,0 +1,22 @@
+.container{
+    height: 600px;
+    border: 1px solid purple;
+    background-color: aliceblue;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+
+}
+.box{
+    width: 80px;
+    height: 80px;
+    background-color: aquamarine;
+    border: 1px solid red;
+}
+#box1{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-row-start: 1;
+    grid-row-end: 5;
+}

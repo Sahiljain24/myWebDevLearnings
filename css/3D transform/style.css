@@ -1,0 +1,19 @@
+div{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(66, 9, 9);
+    margin: 10px;
+}
+.translate{
+    transform: perspective(8px) translatez(-19px);
+    
+}
+.scale{
+    margin: 150px;
+    transform: perspective(10px) scale(1) rotateY(8Deg);
+
+}
+.rotate{
+    transform: rotateZ(30deg);
+}

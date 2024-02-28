@@ -1,0 +1,16 @@
+.container{
+    background-color: antiquewhite;
+     
+    height: 500px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:  wrap;
+   justify-content: space-evenly;
+   align-items:center;
+   align-content: space-evenly;
+}
+.box{
+    background-color: aquamarine;
+    border: 1px solid black;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+.containor{
+    display: grid;
+background-color: bisque;
+height: 500px;
+border: 1px solid black;
+
+}
+
+.box{
+    background-color: aquamarine;
+    height: 80px;
+    width: 80px;
+    
+    border: 1px solid black;
+}
