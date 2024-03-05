@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+.container{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+     
+    background-color: antiquewhite;
+    display: grid;
+     grid-template-areas: 
+  
+     "a a a "
+     "b c c"
+     "b d d" ;
+     grid-template-rows: 1fr 10fr 1fr  ;
+     grid-template-columns: 1fr 5fr ;
+}
+
+#Header{
+      grid-area: a;
+}
+#Footer{
+    grid-area: d;
+
+}
+#Main{
+    grid-area: c;
+}
+#Sidebar{
+    grid-area:b;
+}
+div{
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+    border:1px solid firebrick ;
+}
+@media(max-width:400px) {
+    .container{
+        grid-template-areas: 
+        "a a a "
+        "b b b"
+        "c c c"
+        "d d d ";
+        grid-template-rows: 1fr 2fr 10fr 1fr ;
+    }
+    
+}
