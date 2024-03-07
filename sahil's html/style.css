@@ -1,0 +1,21 @@
+  .first{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 80%;
+   font-weight: 500;
+   font-style: normal;
+   text-align: left;
+  }
+ h1{
+  font-family: cursive;
+  font-size: xx-large;
+  font-weight: 200;
+  font-variant: small-caps;
+ }
+ p{
+  text-align: center;
+  text-decoration:rgb(110, 67, 11);
+    text-transform:initial;
+    text-indent: 30px;
+    line-height: 20px;
+    text-shadow: 1px 1.3px teal;
+ }
