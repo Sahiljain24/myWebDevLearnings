@@ -1,0 +1,11 @@
+{
+  "name": "razorpay-clone",
+  "version": "1.0.0",
+  "description": "project",
+  "main": "postcss.config.js",
+  "scripts": {
+    "start":"vite"
+  },
+  "author": "",
+  "license": "ISC"
+}
