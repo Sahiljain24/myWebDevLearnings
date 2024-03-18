@@ -8,11 +8,18 @@
 </head>
 <body>
     <div class="wrapper">
-        <div class="bg-pink-500 flex h-screen w-screen justify-center items-center">
-            <div  class="border-2 border-black  h-8 w-8 bg-white flex justify-center items-center" >-</div>
-            <div class="border-2 border-black  h-8 w-8 bg-white flex justify-center items-center">0</div>
-            <div class="border-2 border-black  h-8 w-8 bg-white flex justify-center items-center">+</div>
+         <div class="bg-pink-500 flex flex-col gap-2 h-screen w-screen justify-center items-center">
+            <div><h3>Increment and Decrement</h3></div>
+            <div class="bg-pink-500 flex justify-center items-center" >
+                <button onclick="decrement()" class=" border-2 border-black  h-8 w-8 bg-white flex justify-center items-center" >-</button>
+                <div id="t" class="border-2 border-black  h-8 w-8 bg-white flex justify-center items-center">0</div>
+                <button onclick="increment()"  class="border-2 border-black  h-8 w-8 bg-white flex justify-center items-center">+</button>
+            </div>
+ 
         </div>
     </div>
+
+
+    <script src="script.js"></script>
 </body>
 </html>
