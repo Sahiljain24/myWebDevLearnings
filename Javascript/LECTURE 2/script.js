@@ -51,3 +51,6 @@
 function tumm (num,a,r,...arr){
     console.log(arr)
 }
+function addnum(num1,num2){
+  console.log(num1+num2)
+}
