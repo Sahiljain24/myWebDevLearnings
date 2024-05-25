@@ -1,1 +1,1 @@
-All my webdev learning are stored here
+This is a compilation of all my webdev learnings
